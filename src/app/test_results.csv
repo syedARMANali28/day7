@@ -1,0 +1,20 @@
+Test Category,Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+
+
+Thunder Client,TC001,Validate API response,Send GET request to /api/products,200 OK with product data,200 OK,Passed,No issues found
+
+Thunder Client,TC002,Test unauthorized API access,Send POST request without auth token,401 Unauthorized,401 Unauthorized,Passed,Handled as expected
+
+Lighthouse,TC003,Analyze performance score,Run Lighthouse for homepage,Performance score > 90,Score: 92,Passed,Optimized loading speed,
+
+Lighthouse,TC004,Check accessibility score,Run Lighthouse for checkout page,Accessibility score > 90,Score: 85,Failed,Needs minor improvements
+
+Developer Resources,TC005,Validate documentation access,Check README.md availability,README.md is accessible,Accessible,Passed,Well-documented
+
+Performance Monitor,TC006,Check CPU usage during load,Monitor CPU while loading homepage,CPU usage < 50%,CPU usage: 45%,Passed,Efficient performance
+
+Basic Tests,TC007,Test responsiveness,Resize browser window to test layout,Layout adjusts properly,Layout adjusts properly,Passed,Responsive design verified,
+
+Basic Tests,TC008,Test error handling,Input invalid data in form fields,Show appropriate error messages,Error messages displayed,Passed,Validation works as expected,
+
+ALL SCREENSHOTS IN /public/screenshot...,Check screenshots for all pages,All screenshots are available,Passed,All screenshots captured,
