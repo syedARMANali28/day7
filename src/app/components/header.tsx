@@ -90,7 +90,7 @@ export const MiddleHeader = () => {
             {/* Buy Icon */}
             <img
               className="w-[18px] h-[18px] md:w-[22px] md:h-[22px] mr-2"
-              src="/images/buy.png"
+              src="/images/Buy.png"
               alt="buy"
             />
 
